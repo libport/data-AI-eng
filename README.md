@@ -1,5 +1,5 @@
 # Data and AI Engineering Programme Notes
-Course notes and project files for modules, paths, and professional certificates related to Data Engineering from IBM, Pluralsight, and AWS.
+Course notes and project files for modules, paths, and professional certificates related to Data Engineering from IBM, Pluralsight, AWS, and Databricks.
 
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-prem and cloud (AWS) architectures with Databricks.
 ## IBM Professional Certificates

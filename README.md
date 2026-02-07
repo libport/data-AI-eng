@@ -3,9 +3,9 @@ Course notes and project files for modules, paths, and professional certificates
 
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-prem and cloud (AWS) architectures with Databricks.
 ## IBM Professional Certificates
-[IBM Data Engineering Professional Certificate](IBM-DE/README.md)
-IBM AI Engineering Professional Certificate
-IBM Systems and Solutions Architect Professional Certificate
+- [IBM Data Engineering Professional Certificate](IBM-DE/README.md)
+- IBM AI Engineering Professional Certificate
+- IBM Systems and Solutions Architect Professional Certificate
 ## Pluralsight Learning Paths and Modules
 - [Github Foundations](pluralsight/github-foundations/README.md) (Path)
 - Python 3 (Path)

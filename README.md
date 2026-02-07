@@ -20,4 +20,4 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - Get Started with Databricks for Data Engineering (Module)
 
 > [!WARNING]
-> Solutions to labs and projects are my own and validated as correct by tests, but are not the solution provided by the course and may not be optimal solution. Solution provided by the text have not been provided in the notes.
+> Solutions to labs and projects are my own and validated as correct by test cases, but are not the solution provided by the courses and may not be optimal solution. Solution provided by the courses have not been provided in the notes.

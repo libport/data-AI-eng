@@ -1,5 +1,5 @@
 # Data and AI Engineering Programme Notes
-Course notes and project files for modules, paths, and professional certificates related to data and AI Engineering from IBM, Pluralsight, Codecademy, and AWS.
+Course notes and project files for modules, paths, and professional certificates related to data and AI Engineering from IBM, Pluralsight, Codecademy, Databricks, and AWS.
 
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-prem and cloud (AWS) architectures with Databricks.
 ## IBM Professional Certificates
@@ -16,6 +16,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - AWS Certified Machine Learning Engineer - Associate (Path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 ## Codecademy Career Paths, Learning Paths and Modules
 - AWS Certified Data Engineer - Associate (Learning Path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
+- Codecademy Back-End Engineer (Career Path) ([course link](https://www.codecademy.com/learn/paths/back-end-engineer-career-path))
 ## Databricks Learning Paths and Modules
 - Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511))
 

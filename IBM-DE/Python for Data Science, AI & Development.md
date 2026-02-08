@@ -187,13 +187,12 @@ all_items = AlbumSet1 | AlbumSet2  # union
 
 > [!NOTE]
 > Both `discard()` and `remove()` methods remove an element from a set, but their behavior when the element is not found is different. 
-> 
-> | Method      | When element exists | When element does NOT exist  |
+
+| Method      | When element exists | When element does NOT exist  |
 | ----------- | ------------------- | ---------------------------- |
 | `discard()` | Removes the element | Does nothing (no `KeyError`) |
-| `remove()`  | Removes the element | Raises a `KeyError`          | 
- >
- Use `discard()` when unsure if the item is in the set and don't require the program to raise an exception. Use `remove()` when expecting the element to be present, and its absence indicates an error in logic or data.
+| `remove()`  | Removes the element | Raises a `KeyError`          |
+Use `discard()` when unsure if the item is in the set and don't require the program to raise an exception. Use `remove()` when expecting the element to be present, and its absence indicates an error in logic or data.
 
 To test containment, use `issubset()` (lowercase): `common.issubset(AlbumSet1)`.
 ### Dictionaries: key-value mappings

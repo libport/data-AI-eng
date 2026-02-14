@@ -1,7 +1,5 @@
 const express = require('express');
-const { z } = require('zod');
 
-const { validate } = require('../middleware/validate');
 const {
   listEnvelopes,
   getEnvelope,
@@ -13,39 +11,6 @@ const {
 } = require('../controllers/envelopes.controller');
 
 const router = express.Router();
-
-const idParamSchema = z.object({
-  id: z.preprocess((v) => Number(v), z.number().int().positive()),
-});
-
-const envelopeInputSchema = z.preprocess((input) => {
-  if (!input || typeof input !== 'object') return input;
-  const obj = { ...input };
-  if (obj.title && obj.name === undefined) obj.name = obj.title;
-  if (obj.budget !== undefined && obj.balance === undefined) obj.balance = obj.budget;
-  return obj;
-}, z.object({
-  name: z.string().trim().min(1).max(50),
-  balance: z.number().nonnegative(),
-}));
-
-const envelopePatchSchema = z.preprocess((input) => {
-  if (!input || typeof input !== 'object') return input;
-  const obj = { ...input };
-  if (obj.title && obj.name === undefined) obj.name = obj.title;
-  if (obj.budget !== undefined && obj.balance === undefined) obj.balance = obj.budget;
-  return obj;
-}, z.object({
-  name: z.string().trim().min(1).max(50).optional(),
-  balance: z.number().nonnegative().optional(),
-}).refine((v) => v.name !== undefined || v.balance !== undefined, {
-  message: 'Provide at least one field to update',
-}));
-
-const transactionSchema = z.object({
-  type: z.enum(['deposit', 'withdraw']),
-  amount: z.number().positive(),
-});
 
 /**
  * @swagger
@@ -92,7 +57,7 @@ router.get('/', listEnvelopes);
  *       422:
  *         description: Validation failed
  */
-router.post('/', validate(envelopeInputSchema), createEnvelope);
+router.post('/', createEnvelope);
 
 /**
  * @swagger
@@ -112,7 +77,7 @@ router.post('/', validate(envelopeInputSchema), createEnvelope);
  *       404:
  *         description: Not found
  */
-router.get('/:id', validate(idParamSchema, 'params'), getEnvelope);
+router.get('/:id', getEnvelope);
 
 /**
  * @swagger
@@ -143,7 +108,7 @@ router.get('/:id', validate(idParamSchema, 'params'), getEnvelope);
  *       404:
  *         description: Not found
  */
-router.put('/:id', validate(idParamSchema, 'params'), validate(envelopeInputSchema), replaceEnvelope);
+router.put('/:id', replaceEnvelope);
 
 /**
  * @swagger
@@ -172,7 +137,7 @@ router.put('/:id', validate(idParamSchema, 'params'), validate(envelopeInputSche
  *       200:
  *         description: Updated
  */
-router.patch('/:id', validate(idParamSchema, 'params'), validate(envelopePatchSchema), patchEnvelope);
+router.patch('/:id', patchEnvelope);
 
 /**
  * @swagger
@@ -190,7 +155,7 @@ router.patch('/:id', validate(idParamSchema, 'params'), validate(envelopePatchSc
  *       204:
  *         description: Deleted
  */
-router.delete('/:id', validate(idParamSchema, 'params'), deleteEnvelope);
+router.delete('/:id', deleteEnvelope);
 
 /**
  * @swagger
@@ -225,6 +190,6 @@ router.delete('/:id', validate(idParamSchema, 'params'), deleteEnvelope);
  *       409:
  *         description: Overspend attempt (insufficient funds)
  */
-router.post('/:id/transactions', validate(idParamSchema, 'params'), validate(transactionSchema), createTransaction);
+router.post('/:id/transactions', createTransaction);
 
 module.exports = router;

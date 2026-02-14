@@ -1,16 +1,8 @@
 const express = require('express');
-const { z } = require('zod');
 
-const { validate } = require('../middleware/validate');
 const { createTransfer } = require('../controllers/transfers.controller');
 
 const router = express.Router();
-
-const transferSchema = z.object({
-  fromId: z.preprocess((v) => Number(v), z.number().int().positive()),
-  toId: z.preprocess((v) => Number(v), z.number().int().positive()),
-  amount: z.number().positive(),
-});
 
 /**
  * @swagger
@@ -48,6 +40,6 @@ const transferSchema = z.object({
  *       409:
  *         description: Overspend attempt (insufficient funds)
  */
-router.post('/', validate(transferSchema), createTransfer);
+router.post('/', createTransfer);
 
 module.exports = router;

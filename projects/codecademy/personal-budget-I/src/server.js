@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config({ path: path.join(process.cwd(), '.env') });
 
-const { BudgetStore } = require('./store/budgetStore');
+const { createBudgetStore } = require('./store/budgetStore');
 const { createApp } = require('./app');
 
 async function main() {
@@ -12,7 +12,7 @@ async function main() {
     ? path.resolve(process.cwd(), process.env.DATA_FILE)
     : path.join(process.cwd(), 'data', 'envelopes.json');
 
-  const store = new BudgetStore({ filePath: dataFile });
+  const store = createBudgetStore(dataFile);
   await store.init();
 
   const app = createApp(store);

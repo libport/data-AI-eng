@@ -23,6 +23,11 @@ Prerequisites:
 ## README
 This project is a simple Node.js + Express REST API that lets you manage budget envelopes and prevents overspending.
 
+Code style target:
+- beginner-friendly modules
+- straightforward controller validation
+- file-based storage without advanced patterns
+
 ## Run locally
 ```bash
 npm install
@@ -93,3 +98,10 @@ A ready-to-import collection is included:
 
 Import both into Postman, then set the environment variable:
 - `baseUrl` = `http://localhost:5000`
+
+## Folder layout
+- `src/server.js` starts the app
+- `src/app.js` configures middleware and routes
+- `src/routes/` maps endpoints to controllers
+- `src/controllers/` handles request logic and validation
+- `src/store/budgetStore.js` reads/writes `data/envelopes.json`

@@ -109,5 +109,11 @@ Import both into Postman, then set the environment variable:
 ## Partial clone
 To clone only this folder and not rest of repo:
 ```Bash
-svn export https://github.com/pro-cert-notes/data-AI-eng/trunk/projects/codecademy/personal-budget-I personal-budget-I
+git clone --depth=1 --filter=blob:none --sparse https://github.com/pro-cert-notes/data-AI-eng.git
+cd data-AI-eng
+git sparse-checkout set projects/codecademy/personal-budget-I
+mkdir -p ../personal-budget-I
+rsync -a projects/codecademy/mixed-messages/ ../personal-budget-I/
+cd ..
+rm -rf data-AI-eng
 ```

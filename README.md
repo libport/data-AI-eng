@@ -22,10 +22,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511))
  
 ## Portfolio Projects
-### Custom
-- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/pro-cert-notes/open-banking-lakehouse)
-### Codecademy Back-End Engineer Professional Certification
-- [Mixed Messages](/projects/codecademy/mixed-messages)
+- [Open Banking (CDR) Product & Pricing Lakehouse](../open-banking-lakehouse/)
 
 > [!WARNING]
 > Solutions to labs and projects are my own and validated as correct by test cases, but are not the solutions provided by the courses and may not be optimal solutions. Solutions provided by the courses have not been provided in the notes.

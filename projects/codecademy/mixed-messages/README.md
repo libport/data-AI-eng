@@ -14,3 +14,9 @@ Prerequisites:
 - JavaScript
 - Git and GitHub
 - Command line
+
+## Partial Clone
+To clone only this folder and not rest of repo:
+```Bash
+svn export https://github.com/pro-cert-notes/data-AI-eng/trunk/projects/codecademy/mixed-messages mixed-messages
+```

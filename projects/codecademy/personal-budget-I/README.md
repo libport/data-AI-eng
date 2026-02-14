@@ -105,3 +105,9 @@ Import both into Postman, then set the environment variable:
 - `src/routes/` maps endpoints to controllers
 - `src/controllers/` handles request logic and validation
 - `src/store/budgetStore.js` reads/writes `data/envelopes.json`
+
+## Partial clone
+To clone only this folder and not rest of repo:
+```Bash
+svn export https://github.com/pro-cert-notes/data-AI-eng/trunk/projects/codecademy/personal-budget-I personal-budget-I
+```

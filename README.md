@@ -26,7 +26,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - [Open Banking (CDR) Product & Pricing Lakehouse](../open-banking-lakehouse/)
 ### Codecademy
 - [Mixed Messages](/projects/codecademy/mixed-messages/)
-- [Personal Budget I](/projects/codecademy/personal-budget-I/)
+- [Personal Budget I & II](/projects/codecademy/personal-budget/)
 
 > [!WARNING]
 > Solutions to labs and projects are my own and validated as correct by test cases, but are not the solutions provided by the courses and may not be optimal solutions. Solutions provided by the courses have not been provided in the notes.

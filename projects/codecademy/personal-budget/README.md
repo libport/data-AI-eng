@@ -1,6 +1,6 @@
 # Personal Budget
 
-Personal Budget is the porfolio project for the *Back-End Development* and *Advanced Back-End Development* modules of Codecademy's Back-End Engineer Professional Certification.
+Personal Budget is the porfolio project for the *Back-End Development*, *Advanced Back-End Development*, and *Interview Prep* modules of Codecademy's Back-End Engineer Professional Certification.
 
 This project extends the envelope budgeting API by adding a PostgreSQL persistence layer, transaction logging, and API documentation with Swagger.
 

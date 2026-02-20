@@ -1,4 +1,4 @@
-# Data Engineering, AI Engineering, and Data Science Programme Notes
+# Data Engineering, AI Engineering, and Data Science Programme
 Course notes and project files for modules, paths, and professional certificates related to data engineering, AI Engineering, and data science from IBM, Pluralsight, Codecademy, Databricks, and AWS.
 
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-prem and cloud (AWS) architectures with Databricks.

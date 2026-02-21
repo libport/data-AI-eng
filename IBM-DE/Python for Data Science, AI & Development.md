@@ -816,7 +816,7 @@ class TextAnalyzer:
 ```
 ## Working with Data in Python
 ### File handling with open()
-Python reads and writes files through file objects returned by open(). The call accepts a file path and a mode. The path can be a simple filename when the file sits in the current working directory, or an absolute or relative path when it sits elsewhere. The mode tells Python how the program intends to use the file.
+Python reads and writes files through file objects returned by `open()`. The call accepts a file path and a mode. The path can be a simple filename when the file sits in the current working directory, or an absolute or relative path when it sits elsewhere. The mode tells Python how the program intends to use the file.
 
 A typical read operation looks like:
 
@@ -824,9 +824,9 @@ A typical read operation looks like:
 f = open("file.txt", "r")
 ```
 
-The variable f now references a file object. That object exposes useful attributes, including name and mode, which help with debugging and logging. Code that calls open() must also close the file when it finishes, usually with f.close(). Leaving files open can waste system resources and can delay writes being flushed to disk.
+The variable f now references a file object. That object exposes useful attributes, including name and mode, which help with debugging and logging. Code that calls `open()` must also close the file when it finishes, usually with `f.close()`. Leaving files open can waste system resources and can delay writes being flushed to disk.
 
-The with statement manages the file lifecycle. A context manager created by with open(...) as f: closes the file when the block ends, including when an exception interrupts the block. This pattern reduces leaks and prevents accidental use of a handle after closing.
+The with statement manages the file lifecycle. A context manager created by with `open(...) as f:` closes the file when the block ends, including when an exception interrupts the block. This pattern reduces leaks and prevents accidental use of a handle after closing.
 
 ```python
 with open("file.txt", "r") as f:
@@ -835,13 +835,13 @@ with open("file.txt", "r") as f:
 ### Reading text files
 A file object supports several reading strategies. The best choice depends on file size and on whether the program needs random access or streaming.
 
-- read() returns the remaining file content as one string. It suits small to medium files and quick transformations.
-- readline() returns the next line as a string, including the trailing newline character when present. It suits interactive processing where each line triggers an action.
-- readlines() returns a list of lines. Each list element is one line from the file in order. It suits cases where the program needs indexing into the line list.
+- `read()` returns the remaining file content as one string. It suits small to medium files and quick transformations.
+- `readline()` returns the next line as a string, including the trailing newline character when present. It suits interactive processing where each line triggers an action.
+- `readlines()` returns a list of lines. Each list element is one line from the file in order. It suits cases where the program needs indexing into the line list.
 
-Printing a string renders new lines. Inspecting the raw representation shows newline characters as "\n". Programs that compare strings often strip the newline with rstrip("\n") when the newline is not meaningful.
+Printing a string renders new lines. Inspecting the raw representation shows newline characters as "\n". Programs that compare strings often strip the newline with `rstrip("\n")` when the newline is not meaningful.
 
-Iterating over the file object streams line by line without an explicit readline() call:
+Iterating over the file object streams line by line without an explicit `readline()` call:
 
 ```python
 with open("file.txt", "r") as f:
@@ -849,11 +849,11 @@ with open("file.txt", "r") as f:
         print(line, end="")
 ```
 
-This loop stops when the iterator reaches end of file. The pattern scales better than readlines() for large inputs.
+This loop stops when the iterator reaches end of file. The pattern scales better than `readlines()` for large inputs.
 ### Reading specific characters and positions
-Python reads a fixed number of characters with read(n), where n is the number of characters to return from the current file position. Each call advances the file pointer, so successive reads continue from where the previous read stopped.
+Python reads a fixed number of characters with `read(n)`, where n is the number of characters to return from the current file position. Each call advances the file pointer, so successive reads continue from where the previous read stopped.
 
-Random access uses seek(offset). For text files, the offset refers to a position in the underlying byte stream. In practice, seek works reliably when the program uses an encoding that matches the file and avoids seeking into the middle of multi-byte characters. Code that needs predictable offsets often uses binary mode and decodes the bytes after reading.
+Random access uses `seek(offset)`. For text files, the offset refers to a position in the underlying byte stream. In practice, seek works reliably when the program uses an encoding that matches the file and avoids seeking into the middle of multi-byte characters. Code that needs predictable offsets often uses binary mode and decodes the bytes after reading.
 
 ```python
 with open("file.txt", "r") as f:
@@ -861,14 +861,14 @@ with open("file.txt", "r") as f:
     chunk = f.read(5)
 ```
 
-The program can combine seek() and read() to sample headers, skip fixed-width fields, or resume processing from a known checkpoint.
+The program can combine `seek()` and `read()` to sample headers, skip fixed-width fields, or resume processing from a known checkpoint.
 ### Writing, appending, and copying files
 Writing requires a mode that permits output. The most common modes are:
 - "w" creates a new file or truncates an existing file, then writes from the start
 - "a" opens a file for appending and writes at the end
 - "x" creates a new file and fails if the file already exists
 
-The write() method writes the provided string and returns the number of characters written. A newline must be included explicitly with "\n" when the output needs line breaks.
+The `write()` method writes the provided string and returns the number of characters written. A newline must be included explicitly with "\n" when the output needs line breaks.
 
 ```python
 with open("Example2.txt", "w") as f:
@@ -932,8 +932,8 @@ The two core structures are:
 
 Pandas loads common data formats into a DataFrame.
 
-- pd.read_csv(path) loads a CSV file
-- pd.read_excel(path) loads an Excel file into a DataFrame
+- `pd.read_csv(path)` loads a CSV file
+- `pd.read_excel(path)` loads an Excel file into a DataFrame
 
 The program assigns the result to a variable such as df and then inspects a sample:
 
@@ -953,24 +953,24 @@ df = pd.DataFrame(data)
 ### Selecting and indexing data in Pandas
 Column selection uses labels.
 
-- df["Name"] returns a Series
-- df[["Name", "Age"]] returns a DataFrame
+- `df["Name"]` returns a Series
+- `df[["Name", "Age"]]` returns a DataFrame
 
 Row and cell selection uses either integer position or labels.
 
-- df.iloc[2] selects the third row by position
-- df.iloc[2, 1] selects a single cell by position
-- df.loc[1] selects the row with label 1
-- df.loc[1, "Name"] selects a single cell by label
+- `df.iloc[2]` selects the third row by position
+- `df.iloc[2, 1] `selects a single cell by position
+- `df.loc[1]` selects the row with label 1
+- `df.loc[1, "Name"]` selects a single cell by label
 
-Label-based indexing becomes important when the index uses meaningful identifiers. When the program replaces a default integer index with labels such as "A", "B", and "C", df.loc["A", "Artist"] selects the value at that labelled row and column.
+Label-based indexing becomes important when the index uses meaningful identifiers. When the program replaces a default integer index with labels such as "A", "B", and "C", `df.loc["A", "Artist"]` selects the value at that labelled row and column.
 
 Slicing creates subsets. Position-based slicing uses standard Python slice rules, including the exclusion of the end index. Label-based slicing with loc includes both endpoints for ordered labels, which can surprise new users.
 ### Working with unique values, filters, and exports
 Pandas supports exploratory analysis with methods that operate on columns.
 
-- df["Released"].unique() returns the distinct values in a column
-- df["Released"].nunique() returns the number of distinct values
+- `df["Released"].unique()` returns the distinct values in a column
+- `df["Released"].nunique()` returns the number of distinct values
 
 Filtering uses Boolean masks:
 
@@ -981,7 +981,7 @@ df1 = df[mask]
 
 This pattern scales to multiple conditions by combining masks with & and | operators, wrapped in parentheses.
 
-Exports write the transformed data back to disk. df.to_csv("output.csv", index=False) writes a CSV file and omits the DataFrame index. Pandas also writes to Excel and other formats through dedicated methods.
+Exports write the transformed data back to disk. `df.to_csv("output.csv", index=False)` writes a CSV file and omits the DataFrame index. Pandas also writes to Excel and other formats through dedicated methods.
 ### NumPy essentials for numerical computing
 NumPy is the standard library for fast numerical arrays in Python. It provides the ndarray type, which stores fixed-size, homogeneous data efficiently. Code typically imports it as:
 
@@ -1005,31 +1005,31 @@ Key array attributes include:
 
 These attributes help validate inputs before computation and explain why operations fail when shapes do not align.
 ### Indexing, slicing, and vector-style operations in NumPy
-Indexing uses bracket notation. For a 1D array, u[0] selects the first element. For a 2D array, m[row, col] selects a single element.
+Indexing uses bracket notation. For a 1D array, u\[0\] selects the first element. For a 2D array, m\[row, col\] selects a single element.
 
-Slicing selects contiguous ranges. For example, m[0, :2] selects the first row and the first two columns. m[:2, -1] selects the last column for the first two rows.
+Slicing selects contiguous ranges. For example, m\[0, :2\] selects the first row and the first two columns. m\[:2, -1\] selects the last column for the first two rows.
 
 NumPy applies arithmetic element-wise by default. Arrays of the same shape support addition, subtraction, multiplication, and division on corresponding positions. This includes the Hadamard product, where u * v multiplies element by element.
 
 Scalar operations apply to every element. NumPy adds a scalar to an array through broadcasting, which avoids loops in Python code and often runs much faster.
 ### Dot products, matrix multiplication, and universal functions
-The dot product produces a scalar for two 1D vectors of equal length. np.dot(u, v) calculates the sum of products across positions. Matrix multiplication uses the same dot machinery, or the @ operator for arrays with compatible shapes.
+The dot product produces a scalar for two 1D vectors of equal length. `np.dot(u, v)` calculates the sum of products across positions. Matrix multiplication uses the same dot machinery, or the @ operator for arrays with compatible shapes.
 
 NumPy also provides universal functions that apply element-wise to arrays.
 
-- np.sin(x) applies the sine function to every element
-- np.sqrt(x) applies square root
-- np.exp(x) applies the exponential function
+- `np.sin(x)` applies the sine function to every element
+- `np.sqrt(x)` applies square root
+- `np.exp(x)` applies the exponential function
 
 Aggregation methods summarise arrays.
 
-- x.mean() returns the average value
-- x.max() returns the maximum value
-- np.sum(x) returns the total across all elements
+- `x.mean()` returns the average value
+- `x.max()` returns the maximum value
+- `np.sum(x)` returns the total across all elements
 ### Generating grids and plotting functions
-NumPy generates evenly spaced values with np.linspace(start, stop, num). This supports numerical evaluation of functions over an interval, such as evaluating sin() from 0 to 2*pi.
+NumPy generates evenly spaced values with `np.linspace(start, stop, num)`. This supports numerical evaluation of functions over an interval, such as evaluating `sin()` from 0 to 2*pi.
 
-Plotting commonly uses Matplotlib, typically imported as matplotlib.pyplot as plt. A basic plot maps x values to y values:
+Plotting commonly uses Matplotlib, typically imported as `matplotlib.pyplot as plt`. A basic plot maps x values to y values:
 
 ```python
 import matplotlib.pyplot as plt

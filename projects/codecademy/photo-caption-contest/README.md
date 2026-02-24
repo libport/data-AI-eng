@@ -61,3 +61,14 @@ npm start
 - Passwords are hashed with bcrypt.
 - JWT tokens have expiration.
 - Read-heavy endpoints use local cache with TTL.
+
+## Partial Clone
+To clone only this folder and not rest of repo:
+```Bash
+git clone --depth=1 --filter=blob:none --sparse https://github.com/pro-cert-notes/data-AI-eng.git
+cd data-AI-eng
+git sparse-checkout set projects/codecademy/photo-caption-contest
+mkdir -p ../photo-caption-contest
+rsync -a projects/codecademy/photo-caption-contest/ ../photo-caption-contest/
+cd ..
+rm -rf data-AI-eng

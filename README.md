@@ -1,4 +1,4 @@
-# Data Engineering, AI Engineering, and Data Science Programme
+# Data Engineering, AI Engineering, and Data Science Programme Notes
 Course notes and project files for modules, paths, and professional certificates related to data engineering, AI Engineering, and data science from IBM, Pluralsight, Codecademy, Databricks, and AWS.
 
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-prem and cloud (AWS) architectures with Databricks.
@@ -22,12 +22,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511))
  
 ## Portfolio Projects
-### Custom
-- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/pro-cert-notes/open-banking-lakehouse)
-### Codecademy
-- [Mixed Messages](/projects/codecademy/mixed-messages/)
-- [Personal Budget I & II](/projects/codecademy/personal-budget/)
-- [Photo Caption Contest](/projects/codecademy/photo-caption-contest/)
+- [Open Banking (CDR) Product & Pricing Lakehouse](../open-banking-lakehouse/)
 
 > [!WARNING]
-> Solutions to labs and projects are my own and validated as correct with unit tests, but are not the solutions provided by the courses and may not be optimal solutions. Solutions provided by the courses have not been provided in the notes.
+> Solutions to labs and projects are my own and validated as correct by test cases, but are not the solutions provided by the courses and may not be optimal solutions. Solutions provided by the courses have not been provided in the notes.

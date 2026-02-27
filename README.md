@@ -23,7 +23,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
  
 ## Portfolio Projects
 ### Custom
-- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/pro-cert-notes/open-banking-lakehouse)
+- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/certnotes/open-banking-lakehouse)
 ### Codecademy
 - [Mixed Messages](/projects/codecademy/mixed-messages/)
 - [Personal Budget I & II](/projects/codecademy/personal-budget/)

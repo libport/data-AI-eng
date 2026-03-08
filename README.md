@@ -10,8 +10,6 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - IBM Machine Learning Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-machine-learning))
 ## Pluralsight Learning Paths and Modules
 - [Github Foundations](pluralsight/github-foundations/README.md) (Path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
-- Python 3 (Path) ([course link](https://www.pluralsight.com/paths/python-3))
-- Linux Fundamentals (Path) ([course link](https://www.pluralsight.com/paths/linux-fundamentals-1))
 - Docker for Software Development (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
 - Getting started with GitHub Actions (Module) ([course link](https://www.pluralsight.com/paths/github-actions))
 - Terraform - Getting Started (Module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
@@ -24,7 +22,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 ## Portfolio Projects
 ### Custom
 - [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/certnotes/open-banking-lakehouse)
-### Codecademy
+### Codecademy Back-End Engineer Professional Certification
 - [Mixed Messages](/projects/codecademy/mixed-messages/)
 - [Personal Budget I & II](/projects/codecademy/personal-budget/)
 - [Photo Caption Contest](/projects/codecademy/photo-caption-contest/)

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mixed Messages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      line-height: 1.5;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    pre {
+      background: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1rem;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sarcastic Horoscope</h1>
+  <pre id="output"></pre>
+
+  <script>
+    function randomIndex(length) {
+      return Math.floor(Math.random() * length);
+    }
+
+    function randomPick(items) {
+      return items[randomIndex(items.length)];
+    }
+
+    const sarcasticMessageParts = {
+      cosmicMood: [
+        'the universe is pretending to care',
+        'Mercury is in "whatever" again',
+        'the stars are buffering',
+        'your aura has low battery'
+      ],
+      dayForecast: [
+        'a premium blend of mild chaos',
+        'just enough luck to stay confused',
+        'an exciting series of small inconveniences',
+        'the exact energy of a Monday morning'
+      ],
+      advice: [
+        'keep overthinking, it is clearly working',
+        'trust your instincts, then immediately doubt them',
+        'pretend this is all part of the plan',
+        'lower expectations and call it inner peace'
+      ]
+    };
+
+    function generateSarcasticMessage(parts) {
+      return [
+        `Cosmic update: "${randomPick(parts.cosmicMood)}".`,
+        `Today includes: "${randomPick(parts.dayForecast)}".`,
+        `Expert advice: "${randomPick(parts.advice)}".`
+      ];
+    }
+
+    const message = generateSarcasticMessage(sarcasticMessageParts);
+    document.getElementById('output').textContent = message.join('\n');
+    console.log(message.join('\n'));
+  </script>
+</body>
+</html>

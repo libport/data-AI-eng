@@ -1,0 +1,126 @@
+{
+  "info": {
+    "_postman_id": "8a7fd7d2-5f92-4b59-9e91-000000000002",
+    "name": "Personal Budget API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Envelope budgeting API collection (CRUD, transactions, transfers)"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "List Envelopes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/envelopes",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "envelopes"]
+        }
+      }
+    },
+    {
+      "name": "Create Envelope",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Savings\",\n  \"balance\": 100\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/envelopes",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "envelopes"]
+        }
+      }
+    },
+    {
+      "name": "Get Envelope by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/envelopes/{{envelopeId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "envelopes", "{{envelopeId}}"]
+        }
+      }
+    },
+    {
+      "name": "Update Envelope (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Rent\",\n  \"balance\": 1200\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/envelopes/{{envelopeId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "envelopes", "{{envelopeId}}"]
+        }
+      }
+    },
+    {
+      "name": "Deposit (Transaction)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"type\": \"deposit\",\n  \"amount\": 10\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/envelopes/{{envelopeId}}/transactions",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "envelopes", "{{envelopeId}}", "transactions"]
+        }
+      }
+    },
+    {
+      "name": "Withdraw (Transaction)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"type\": \"withdraw\",\n  \"amount\": 25.5\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/envelopes/{{envelopeId}}/transactions",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "envelopes", "{{envelopeId}}", "transactions"]
+        }
+      }
+    },
+    {
+      "name": "Transfer Between Envelopes",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"fromId\": 2,\n  \"toId\": 1,\n  \"amount\": 50\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/transfers",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "transfers"]
+        }
+      }
+    }
+  ]
+}

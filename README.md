@@ -18,8 +18,10 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 ### Codecademy Career Paths, Learning Paths and Modules
 - AWS Certified Data Engineer - Associate (Learning Path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 ### Databricks Learning Paths and Modules
-- Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511))
- 
+- Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 
+### DeepLearning.AI
+- ChatGPT Prompt Engineering for Developers
+- AI Prompting for Everyone
 ## Portfolio Projects
 ### Custom
 - [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/certnotes/open-banking-lakehouse)

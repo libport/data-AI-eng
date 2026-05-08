@@ -1,7 +1,7 @@
 # Python for Data Science, AI & Development
-### Python Basics
+## Python Basics
 Python is a high-level, general-purpose language known for readable syntax and a huge ecosystem. It’s widely used in data science, AI and machine learning, web development, and IoT, supported by an active global community and strong documentation.
-#### Working in Jupyter notebooks
+### Working in Jupyter notebooks
 Jupyter is a web application for creating and sharing notebooks: documents that combine code, output (tables/plots), and narrative text. Notebooks are built from cells. Code cells execute immediately, while Markdown cells hold formatted explanations and headings, making it easier to communicate results alongside computations. Jupyter can support multiple languages via kernels, but it’s commonly used with Python.
 
 Everyday notebook actions:
@@ -10,7 +10,7 @@ Everyday notebook actions:
 - Run everything: Run → Run All Cells for a clean top-to-bottom execution.
 - Work in parallel: open multiple notebooks and arrange them side-by-side.
 - Present and wrap up: mix Markdown and code for a “story,” optionally use slide mode, then shut down the kernel to release memory (“No Kernel” indicates it’s stopped).
-#### Expressions and variables
+### Expressions and variables
 An expression is something Python evaluates to produce a value. Arithmetic expressions combine operands (numbers) with operators (+, -, , /). In Python 3, `/` always returns a float (for example, `25 / 5` evaluates to `5.0`). Operator precedence follows standard math rules: multiplication/division happen before addition/subtraction unless parentheses override the order.
 
 Variables store values to reuse them:
@@ -20,7 +20,7 @@ Variables store values to reuse them:
 Reassigning `total_min` changes future results without rewriting formulas. Use meaningful names (often with underscores) so code remains readable.
 
 A precision fix: `//` is floor division, meaning it rounds down (toward negative infinity). This is not “round to nearest,” and it differs from truncation for negative values (e.g., `-3 // 2` is `-2`).
-#### Types and typecasting
+### Types and typecasting
 A type describes how Python represents data. Common built-ins include `int` (integers), `float` (floating-point numbers), `str` (strings), and `bool` (`True`/`False`). Inspect a value with `type(x)`.
 
 Typecasting converts between types:
@@ -31,7 +31,7 @@ Typecasting converts between types:
 - `int(True)` → `1` and `int(False)` → `0`; `bool(0)` → `False`, `bool(1)` → `True`
 
 Python’s `int` can grow to very large values (limited mainly by memory), while floats have limited precision.
-#### Strings as sequences
+### Strings as sequences
 A string is a sequence of characters enclosed in quotes (single or double). Strings can contain letters, digits, spaces, and punctuation, and can assign them to variables and print them.
 
 Indexing is zero-based: `s[0]` is the first character. Negative indexes count from the end: `s[-1]` is the last character. Slicing uses `s[start:stop]`, where `stop` is _exclusive_:
@@ -51,7 +51,7 @@ Strings support sequence-style operations:
 Strings are immutable: Can’t change a character in place, but can create a new string from old pieces (e.g., `name + " is the best"`).
 
 One correction from the notebook: there is no built-in string method named `camelcase()`. If “title-cased” version is required, try `name.title()`, or implement customised own transformation.
-#### Escape Sequences and Raw Strings
+### Escape Sequences and Raw Strings
 Backslashes start escape sequences, which represent special characters:
 - `\n` newline, `\t` tab, `\\` a literal backslash
 
@@ -61,7 +61,7 @@ Raw strings (prefix with `r`) treat backslashes literally. They’re useful for 
 print("Line1\nLine2")
 print(r"C:\new_folder\file.txt")
 ```
-#### Useful string methods
+### Useful string methods
 Most string methods return a new string (they don’t mutate the original):
 - `upper()` converts to uppercase
 - `lower()`  converts to lowercase
@@ -80,7 +80,7 @@ name = "The BodyGuard"
 print(name.find("Guard"))     # index or -1
 print(name.split())           # ["The", "BodyGuard"]
 ```
-#### Formatting strings for output
+### Formatting strings for output
 Three common formatting styles appear in the materials:
 - f-strings: `f"My name is {name} and I am {age}."`
 - str.format(): `"My name is {} and I am {}.".format(name, age)`
@@ -95,7 +95,7 @@ print(f"My name is {name} and I am {age} years old.")
 print("My name is {} and I am {} years old.".format(name, age))
 print("My name is %s and I am %d years old." % (name, age))
 ```
-#### Regular expressions in Python
+### Regular expressions in Python
 RegEx matchs text by pattern, using Python’s built-in `re` module:
 - `re.search(pattern, text)` returns the first match or `None`
 - `match.group()` retrieves the matched substring
@@ -116,8 +116,8 @@ if m:
 else:
     print("No phone number found")
 ```
-### Python Data Structures
-#### Tuples: ordered and immutable
+## Python Data Structures
+### Tuples: ordered and immutable
 A tuple is an ordered sequence, written as comma-separated elements (often inside parentheses):
 
 ```python
@@ -220,7 +220,7 @@ albums.keys(); albums.values()
 Use tuples for fixed records, lists for ordered collections that will be modified, sets for fast membership/uniqueness, and dictionaries for quick lookups by name or ID.
 ## Python Programming Fundamentals
 Python programs evaluate conditions, branch into different code paths, repeat work with loops, package reusable logic into functions, handle runtime failures with exceptions, and model data and behaviour with objects and classes. These features work together to create predictable behaviour from changing inputs.
-#### Comparison operators and Boolean results
+### Comparison operators and Boolean results
 Comparison operators test a relationship between operands and return Boolean results, `True` or `False`.
 
 - `==` tests whether two values are equal.
@@ -324,7 +324,7 @@ is_do_not_disturb = True
 if not is_do_not_disturb:
     send_notification("New message received")
 ```
-#### Loops: for, range, enumerate, while
+### Loops: for, range, enumerate, while
 Loops repeat a block of code while changing state. The repeating pattern is consistent even when syntax differs.
 
 - Initialisation sets starting values.
@@ -391,7 +391,7 @@ Loop choice depends on the problem shape.
 - A `while` loop suits processing until a condition changes, such as waiting for valid input or scanning until a non-matching value appears.
 
 Loop variables represent the current item or index. A `for` loop overwrites its loop variable each iteration, so later code should not assume it retains an earlier value unless explicitly captured. When a loop updates a list by index, the code must ensure indexes remain valid and avoid mixing index updates with changes that alter list length inside the same loop.
-#### Functions: reuse, inputs, outputs, and side effects
+### Functions: reuse, inputs, outputs, and side effects
 A function packages a repeated action into a named unit. Functions support modular program design and make behaviour easier to test in isolation.
 
 - A function can accept inputs through parameters.
@@ -532,7 +532,7 @@ def add_one_to_rating():
 
 new_rating = add_one_to_rating()
 ```
-#### Exceptions and error handling
+### Exceptions and error handling
 Python raises exceptions when operations fail at runtime. Handling exceptions prevents a program from terminating unexpectedly and provides controlled recovery paths. Exception handling also separates normal logic from recovery logic, which improves readability when failures are expected, such as invalid user input or unavailable files.
 
 A `try` block runs code that might fail. One or more `except` blocks catch and handle specific exception types. Catching a broad exception without naming a type can hide the true cause of a fault and slow debugging, particularly inside larger programs.
@@ -581,7 +581,7 @@ Common exception types include:
 - `ValueError` for invalid values passed to an operation.
 
 Syntax errors occur before execution, such as `SyntaxError` from invalid code structure, and cannot be recovered with `try`. These issues require source changes.
-#### Objects and classes
+### Objects and classes
 Python treats values as objects. Each object has a type, an internal representation, and methods that operate on the object.
 
 A class defines a new type by specifying attributes and methods. An object created from a class is an instance. Instances carry state through attribute values and expose behaviour through methods.
@@ -832,7 +832,7 @@ The with statement manages the file lifecycle. A context manager created by with
 with open("file.txt", "r") as f:
     data = f.read()
 ```
-### Reading text files
+#### Reading text files
 A file object supports several reading strategies. The best choice depends on file size and on whether the program needs random access or streaming.
 
 - `read()` returns the remaining file content as one string. It suits small to medium files and quick transformations.
@@ -850,7 +850,7 @@ with open("file.txt", "r") as f:
 ```
 
 This loop stops when the iterator reaches end of file. The pattern scales better than `readlines()` for large inputs.
-### Reading specific characters and positions
+#### Reading specific characters and positions
 Python reads a fixed number of characters with `read(n)`, where n is the number of characters to return from the current file position. Each call advances the file pointer, so successive reads continue from where the previous read stopped.
 
 Random access uses `seek(offset)`. For text files, the offset refers to a position in the underlying byte stream. In practice, seek works reliably when the program uses an encoding that matches the file and avoids seeking into the middle of multi-byte characters. Code that needs predictable offsets often uses binary mode and decodes the bytes after reading.
@@ -862,7 +862,7 @@ with open("file.txt", "r") as f:
 ```
 
 The program can combine `seek()` and `read()` to sample headers, skip fixed-width fields, or resume processing from a known checkpoint.
-### Writing, appending, and copying files
+#### Writing, appending, and copying files
 Writing requires a mode that permits output. The most common modes are:
 - "w" creates a new file or truncates an existing file, then writes from the start
 - "a" opens a file for appending and writes at the end
@@ -902,7 +902,7 @@ with open("source.txt", "r") as src, open("destination.txt", "w") as dst:
     for line in src:
         dst.write(line)
 ```
-### File modes used in practice
+#### File modes used in practice
 Python uses a compact mode string to combine behaviours. The program can extend the basic modes with:
 - "+" to allow both reading and writing
 - "b" to use binary mode

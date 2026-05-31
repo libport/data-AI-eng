@@ -11,7 +11,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - IBM Machine Learning Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-machine-learning))
 ### Pluralsight Learning Paths and Modules
 - [Github Foundations](pluralsight/github-foundations/README.md (Path)) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
-- Docker for Software Development (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
+- [Docker for Software Development](docker/README.md) (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
 - Getting started with GitHub Actions (Module) ([course link](https://www.pluralsight.com/paths/github-actions))
 - Terraform - Getting Started (Module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
 - AWS Certified Machine Learning Engineer - Associate (Path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))

@@ -11,7 +11,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - IBM Machine Learning Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-machine-learning))
 ### Pluralsight Learning Paths and Modules
 - [Github Foundations](pluralsight/github-foundations/README.md (Path)) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
-- [Docker for Software Development](docker/README.md) (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
+- [Docker for Software Development](pluralsight/docker/README.md) (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
 - Getting started with GitHub Actions (Module) ([course link](https://www.pluralsight.com/paths/github-actions))
 - Terraform - Getting Started (Module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
 - AWS Certified Machine Learning Engineer - Associate (Path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
@@ -19,13 +19,10 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - AWS Certified Data Engineer - Associate (Learning Path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 ### Databricks Learning Paths and Modules
 - Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 
-### DeepLearning.AI
-- ChatGPT Prompt Engineering for Developers
-- AI Prompting for Everyone
 ## Portfolio Projects
 ### Custom
-- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/certnotes/open-banking-lakehouse)
-- [Pricing Function Mapper](https://github.com/certnotes/pricing-function-mapper)
+- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/libport/open-banking-lakehouse)
+- [Pricing Function Mapper](https://github.com/libport/pricing-function-mapper)
 ### Codecademy Back-End Engineer Professional Certification
 - [Mixed Messages](/projects/codecademy/mixed-messages/)
 - [Personal Budget I & II](/projects/codecademy/personal-budget/)

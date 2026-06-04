@@ -4,7 +4,7 @@ These notes cover material from Pluralsight's 15-hour, self-paced course coverin
 - [Docker for Software Development: Docker Foundations](Docker%20for%20Software%20Development%20Docker%20Foundations.md)
 - [Docker for Software Development: Docker Compose](Docker%20for%20Software%20Development%20Docker%20Compose.md)
 - [Docker for Software Development: Your First Docker App](Docker%20for%20Software%20Development%20Your%20First%20Docker%20App.md)
-- Docker for Software Development: Node.js Apps
+- [Docker for Software Development: Node.js Apps](Docker%20for%20Software%20Development%20Node.js%20Apps.md)
 - Docker for Software Development: Python Apps
 - Docker for Software Development: React Apps
 - Docker for Software Development: SQL Server

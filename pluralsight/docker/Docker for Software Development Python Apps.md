@@ -1,4 +1,4 @@
-# Docker for Software Development Python Apps
+# Docker for Software Development: Python Apps
 A containerised Python application packages the application code, runtime, libraries, and supporting configuration into a repeatable unit. Docker gives a Flask service a consistent runtime from a developer workstation to production, reduces dependency conflicts, starts faster than a virtual machine, scales horizontally through container orchestration, and fits continuous integration and continuous deployment pipelines.
 
 The sample application is a RESTful Flask service for a coffee shop. It manages coffees with an id, name, and version. The early version stores coffees in an in-memory list so the web service logic can be understood before database persistence is added. Flask routes connect HTTP methods and paths to Python functions. `GET /coffees` returns the full list, `GET /coffee/<id>` returns one coffee, `POST /coffee` creates a coffee, `PUT /coffee/<id>` updates a coffee, and `DELETE /coffee/<id>` deletes one.

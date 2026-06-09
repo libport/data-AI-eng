@@ -9,7 +9,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 ### Pluralsight Learning Paths and Modules
-- [Github Foundations](pluralsight/github-foundations/README.md (Path)) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
+- [Github Foundations](pluralsight/github-foundations/README.md (Path)) (Path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
 - [Docker for Software Development](pluralsight/docker/README.md) (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
 - Getting started with GitHub Actions (Module) ([course link](https://www.pluralsight.com/paths/github-actions))
 - Terraform - Getting Started (Module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))

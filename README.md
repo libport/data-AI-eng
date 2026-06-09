@@ -7,8 +7,7 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - [IBM Data Engineering Professional Certificate](IBM-DE/README.md) ([course link](https://www.coursera.org/professional-certificates/ibm-data-engineer))
 - IBM AI Engineering Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ai-engineer))
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
-- IBM Data Science Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-data-science))
-- IBM Machine Learning Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-machine-learning))
+- AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 ### Pluralsight Learning Paths and Modules
 - [Github Foundations](pluralsight/github-foundations/README.md (Path)) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
 - [Docker for Software Development](pluralsight/docker/README.md) (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))

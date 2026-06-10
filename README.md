@@ -15,6 +15,8 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - Terraform - Getting Started (Module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
 - AWS Certified Machine Learning Engineer - Associate (Path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 ### Codecademy Career Paths, Learning Paths and Modules
+- Back-End Engineer Professional Certification ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
+- Data Scientist: Machine Learning Professional Certification ([course link](https://www.codecademy.com/career-journey/data-scientist-ml))
 - AWS Certified Data Engineer - Associate (Learning Path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 ### Databricks Learning Paths and Modules
 - Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 

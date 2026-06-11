@@ -8,8 +8,8 @@ These notes cover material from Pluralsight's 15-hour, self-paced course coverin
 - [Docker for Software Development: Python Apps](Docker%20for%20Software%20Development%20Python%20Apps.md)
 - [Docker for Software Development: React Apps](Docker%20for%20Software%20Development%20React%20Apps.md)
 - [Docker for Software Development: SQL Server](Docker%20for%20Software%20Development%20SQL%20Server.md)
-- [Docker for Software Development Deploying Apps](Docker%20for%20Software%20Development%20Deploying%20Apps.md)
-- Docker for Software Development: Developing Docker Apps
+- [Docker for Software Development: Deploying Apps](Docker%20for%20Software%20Development%20Deploying%20Apps.md)
+- [Docker for Software Development: Developing Docker Apps](Docker%20for%20Software%20Development%20Developing%20Docker%20Apps.md)
 ## Further Reading
 Notes are supplemented with information from third-party sources, including:
 - [Docker: Up & Running](https://www.oreilly.com/library/view/docker-up/9781098131814/), 3rd Edition, by Sean P. Kane and Karl Matthias

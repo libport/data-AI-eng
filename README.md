@@ -10,7 +10,6 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 ### MIT Open Learning Courses
 - MITx MicroMasters Program in Statistics and Data Science ([course link](https://micromasters.mit.edu/ds/))
-- MITx MicroMasters Program in  Finance ([course link](https://micromasters.mit.edu/fin/))
 ### Pluralsight Learning paths and modules
 - [Github Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
 - [Docker for Software Development](pluralsight/docker/README.md) (path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))

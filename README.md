@@ -8,22 +8,26 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - IBM AI Engineering Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ai-engineer))
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
-### Pluralsight Learning Paths and Modules
-- [Github Foundations](pluralsight/github-foundations/README.md (Path)) (Path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
-- [Docker for Software Development](pluralsight/docker/README.md) (Path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
-- Getting started with GitHub Actions (Module) ([course link](https://www.pluralsight.com/paths/github-actions))
-- Terraform - Getting Started (Module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
-- AWS Certified Machine Learning Engineer - Associate (Path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
-### Codecademy Career Paths, Learning Paths and Modules
+### MIT Open Learning Courses
+- MITx MicroMasters Program in Statistics and Data Science ([course link](https://micromasters.mit.edu/ds/))
+- MITx MicroMasters Program in  Finance ([course link](https://micromasters.mit.edu/fin/))
+### Pluralsight Learning paths and modules
+- [Github Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
+- [Docker for Software Development](pluralsight/docker/README.md) (path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
+- Getting started with GitHub Actions (module) ([course link](https://www.pluralsight.com/paths/github-actions))
+- Terraform - Getting Started (module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
+- AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
+### Codecademy Career paths, Learning paths and modules
 - Back-End Engineer Professional Certification ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
 - Data Scientist: Machine Learning Professional Certification ([course link](https://www.codecademy.com/career-journey/data-scientist-ml))
-- AWS Certified Data Engineer - Associate (Learning Path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
-### Databricks Learning Paths and Modules
-- Get Started with Databricks for Data Engineering (Module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 
+- AWS Certified Data Engineer - Associate (path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
+### Databricks Learning paths and modules
+- Get Started with Databricks for Data Engineering (module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 
 ## Portfolio Projects
 ### Custom
-- [Open Banking (CDR) Product & Pricing Lakehouse](https://github.com/libport/open-banking-lakehouse)
-- [Pricing Function Mapper](https://github.com/libport/pricing-function-mapper)
+- [Open Banking (CDR) Product & Pricing Lakehouse](/open-banking-lakehouse)
+- [Pricing Function Mapper](/pricing-function-mapper)
+- [Event-Driven Backtesting Platform](/backtest)
 ### Codecademy Back-End Engineer Professional Certification
 - [Mixed Messages](/projects/codecademy/mixed-messages/)
 - [Personal Budget I & II](/projects/codecademy/personal-budget/)

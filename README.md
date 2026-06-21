@@ -25,9 +25,9 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - Get Started with Databricks for Data Engineering (module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 
 ## Portfolio Projects
 ### Custom
-- [Open Banking (CDR) Product & Pricing Lakehouse](../../../../open-banking-lakehouse)
-- [Pricing Function Mapper](../../../../pricing-function-mapper)
-- [Event-Driven Backtesting Platform](../../../../backtest)
+- [Open Banking (CDR) Product & Pricing Lakehouse](../../../open-banking-lakehouse)
+- [Pricing Function Mapper](../../../pricing-function-mapper)
+- [Event-Driven Backtesting Platform](../../../backtest)
 ### Codecademy Back-End Engineer Professional Certification
 - [Mixed Messages](/projects/codecademy/mixed-messages/)
 - [Personal Budget I & II](/projects/codecademy/personal-budget/)

@@ -17,20 +17,15 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - Terraform - Getting Started (module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
 - AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 ### Codecademy Career paths, Learning paths and modules
-- Back-End Engineer Professional Certification ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
+- [Back-End Engineer Professional Certification](codecademy/backend-engineer/README.md) ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
 - Data Scientist: Machine Learning Professional Certification ([course link](https://www.codecademy.com/career-journey/data-scientist-ml))
 - AWS Certified Data Engineer - Associate (path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 ### Databricks Learning paths and modules
 - Get Started with Databricks for Data Engineering (module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 
-## Portfolio Projects
-### Custom
+## Custom Portfolio Projects
 - [Open Banking (CDR) Product & Pricing Lakehouse](../../../open-banking-lakehouse)
 - [Pricing Function Mapper](../../../pricing-function-mapper)
 - [Event-Driven Backtesting Platform](../../../backtest)
-### Codecademy Back-End Engineer Professional Certification
-- [Mixed Messages](/projects/codecademy/mixed-messages/)
-- [Personal Budget I & II](/projects/codecademy/personal-budget/)
-- [Photo Caption Contest](/projects/codecademy/photo-caption-contest/)
 
 > [!WARNING]
 > Solutions to labs and projects are my own and validated as correct with unit tests, but are not the solutions provided by the courses and may not be optimal solutions. Solutions provided by the courses have not been provided in the notes.

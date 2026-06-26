@@ -1,11 +1,11 @@
 # Codecademy Back-End Engineer Professional Certificate
 ## Course Description
-This 3-month, self-paced program teaches hidden processes that that teaches the server-side technologies behind modern web applications, including JavaScript, Node.js, Express.js, PostgreSQL, SQL, APIs, databases, and security.
+This 3-month, self-paced program teaches the server-side technologies behind modern web applications, including JavaScript, Node.js, Express.js, PostgreSQL, SQL, APIs, databases, and security.
 ### Projects:
 - A Node.js console app that generates random messages each time a user runs the program and version your project with Git/GitHub.
 - A Node and Express.js project with an API that allows users to create and manage a personal budget and a database to persist your data.
 - An API with Node, Express, and Postgres that uses authentication and authorization best practices to manage an online contest.
-## Notes and Projects
+## Modules
 ### Software Engineering Foundations
 - Web Development Fundamentals
 - JavaScript Syntax, Part I

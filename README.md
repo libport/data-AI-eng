@@ -4,14 +4,14 @@ Course notes and project files for modules, paths, and professional certificates
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-prem and cloud (AWS) architectures with Databricks.
 ## Course Notes
 ### IBM Professional Certificates
-- [IBM Data Engineering Professional Certificate](IBM-DE/README.md) ([course link](https://www.coursera.org/professional-certificates/ibm-data-engineer))
+- :construction: [IBM Data Engineering Professional Certificate](IBM-DE/README.md) ([course link](https://www.coursera.org/professional-certificates/ibm-data-engineer))
 - IBM AI Engineering Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ai-engineer))
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 ### MIT Open Learning Courses
 - MITx MicroMasters Program in Statistics and Data Science ([course link](https://micromasters.mit.edu/ds/))
 ### Pluralsight Learning paths and modules
-- [Github Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
+- :construction: [Github Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
 - [Docker for Software Development](pluralsight/docker/README.md) (path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
 - [Getting Started with GitHub Actions](pluralsight/Getting%20started%20with%20GitHub%20Actions.md) (module) ([course link](https://www.pluralsight.com/paths/github-actions))
 - Terraform - Getting Started (module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))

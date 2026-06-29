@@ -18,7 +18,6 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 - AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 ### Codecademy Career paths, Learning paths and modules
 - [Back-End Engineer Professional Certification](codecademy/backend-engineer/README.md) ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
-- Data Scientist: Machine Learning Professional Certification ([course link](https://www.codecademy.com/career-journey/data-scientist-ml))
 - AWS Certified Data Engineer - Associate (path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 ### Databricks Learning paths and modules
 - Get Started with Databricks for Data Engineering (module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511)) 

@@ -18,7 +18,7 @@ Prerequisites:
 ## Partial Clone
 To clone only this folder and not rest of repo:
 ```Bash
-git clone --depth=1 --filter=blob:none --sparse https://github.com/pro-cert-notes/data-AI-eng.git
+git clone --depth=1 --filter=blob:none --sparse https://github.com/libport/data-AI-eng.git
 cd data-AI-eng
 git sparse-checkout set projects/codecademy/mixed-messages
 mkdir -p ../mixed-messages

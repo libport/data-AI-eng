@@ -14,7 +14,6 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 ### Pluralsight Learning paths and modules
 - :construction: :notebook: [Github Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations)) 
 - :notebook: [Docker for Software Development](pluralsight/docker/README.md) (path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
-- :notebook: [Getting Started with GitHub Actions](pluralsight/Getting%20started%20with%20GitHub%20Actions.md) (module) ([course link](https://www.pluralsight.com/paths/github-actions))
 - Terraform - Getting Started (module) ([course link](https://www.pluralsight.com/courses/terraform-getting-started-5))
 - AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 ### Codecademy Career paths, Learning paths and modules

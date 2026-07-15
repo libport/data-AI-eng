@@ -8,5 +8,5 @@ The 12 hour, self-paced, [GitHub Foundations learning path from Pluralsight](htt
 - [GitHub Foundations: Collaborating on GitHub](GitHub%20Foundations%20Collaborating%20on%20GitHub.md)
 - *GitHub Actions: The Big Picture* replaced with [Getting started with GitHub Actions](Getting%20started%20with%20GitHub%20Actions.md) ([course link](https://www.pluralsight.com/paths/github-actions))
 - [GitHub Foundations Adopting an InnerSource Culture with GitHub](GitHub%20Foundations%20Adopting%20an%20InnerSource%20Culture%20with%20GitHub.md)
-- GitHub Copilot Fundamentals: AI Paired Programming
+- [GitHub Copilot Fundamentals AI Paired Programming](GitHub%20Copilot%20Fundamentals%20AI%20Paired%20Programming.md)
 - GitHub Copilot Fundamentals: AI Agents

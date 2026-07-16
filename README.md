@@ -26,6 +26,7 @@ Data engineering is the discipline of designing, building, and maintaining relia
 ## Systems Engineering and Architecture
 Systems architecture integrates data engineering and AI engineering by combining their pipelines, platforms, models, applications, security controls, and governance processes into scalable enterprise solutions that deliver measurable business value.
 ### Course Notes and Project Files
+- :construction: :notebook: [Codecademy Associate Systems Engineer to Principal Systems Engineer](codecademy/ASEPSE/README.md) ([course link](https://www.codecademy.com/learn/ext-paths/systems-engineering-journey))
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 - Codecademy AWS Certified Solutions Architect - Professional (path) ([course link](https://www.codecademy.com/learn/ext-paths/sap-c02-aws-certified-solutions-architect-professional))

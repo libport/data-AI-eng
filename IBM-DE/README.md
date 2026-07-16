@@ -1,4 +1,5 @@
 # IBM Data Engineering Professional Certificate
+Course notes for the [IBM Data Engineering Professional Certificate on Coursera](https://www.coursera.org/professional-certificates/ibm-data-engineer).
 ## Course Description
 This 6-month, self-paced program teaches foundational data engineering skills including: Python, SQL, RDBMS, ETL, Data Warehousing, NoSQL, Big Data, and Spark with hands-on labs and projects.
 ## Projects:

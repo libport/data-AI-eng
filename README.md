@@ -5,19 +5,18 @@ Programme designed for mastery in flexible, resilient, and performant data and A
 ## Data and AI Engineering
 Data engineering is the discipline of designing, building, and maintaining reliable systems that collect, transform, store, and deliver data for analysis and operational use. AI engineering focuses on developing, deploying, and managing artificial intelligence models and applications that solve practical problems. The two complement each other because data engineering provides the high-quality, accessible data that AI systems need, while AI engineering turns that data into predictions, automation, and insights.
 ### Course Notes and Project Files
-- :package: [Back-End Engineer Professional Certification](codecademy/backend-engineer/README.md) ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
-- :notebook: [GitHub Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations))
-- :notebook: [Docker for Software Development](pluralsight/docker/README.md) (path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
-- IBM DevOps and Software Engineering Professional Certificate ([course link](https://www.coursera.org/professional-certificates/devops-and-software-engineering))
+- :package: [Back-End Engineer Professional Certification](Codecademy:/backend-engineer/README.md) ([course link](https://www.Codecademy:.com/career-journey/back-end-engineer))
+- :notebook: [GitHub Foundations](Pluralsight:/github-foundations/README.md (path)) (path) ([course link](https://www.Pluralsight:.com/paths/github-foundations))
+- :notebook: [Docker for Software Development](Pluralsight:/docker/README.md) (path) ([course link](https://www.Pluralsight:.com/paths/docker-for-software-development))
 - :construction: :notebook: [IBM Data Engineering Professional Certificate](IBM-DE/README.md) ([course link](https://www.coursera.org/professional-certificates/ibm-data-engineer))
-- Codecademy AWS Certified Data Engineer - Associate (path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
+- AWS Certified Data Engineer - Associate (path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 - IBM AI Engineering Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ai-engineer))
-- Pluralsight AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
+- AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 - Get Started with Databricks for Data Engineering (module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511))
 ### Book Notes
 - Learning Systems Thinking, by Diana Montalion. ([publisher page](https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/))
-- Modern Software Engineering, by David Farley ([publisher page](https://www.informit.com/store/modern-software-engineering-doing-what-works-to-build-9780137314911))
 - Fundamentals of Data Engineering, by Joe Reis and Matt Housley. ([publisher page](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/))
+- Modern Software Engineering, by David Farley ([publisher page](https://www.informit.com/store/modern-software-engineering-doing-what-works-to-build-9780137314911))
 - Software Engineering for Data Scientists, by Catherine Nelson. ([publisher page](https://www.oreilly.com/library/view/software-engineering-for/9781098136192/))
 - Data Engineering Design Patterns, by Bartosz Konieczny. ([publisher page](https://www.oreilly.com/library/view/data-engineering-design/9781098165826/))
 - Financial Data Engineering, by Tamer Khraisha. ([publisher page](https://www.oreilly.com/library/view/financial-data-engineering/9781098159986/))
@@ -26,10 +25,10 @@ Data engineering is the discipline of designing, building, and maintaining relia
 ## Systems Engineering and Architecture
 Systems architecture integrates data engineering and AI engineering by combining their pipelines, platforms, models, applications, security controls, and governance processes into scalable enterprise solutions that deliver measurable business value.
 ### Course Notes and Project Files
-- :construction: :notebook: [Codecademy Associate Systems Engineer to Principal Systems Engineer](codecademy/ASEPSE/README.md) ([course link](https://www.codecademy.com/learn/ext-paths/systems-engineering-journey))
+- :construction: :notebook: [Associate Systems Engineer to Principal Systems Engineer](Codecademy:/ASEPSE/README.md) ([course link](https://www.codecademy.com/learn/ext-paths/systems-engineering-journey))
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
-- Codecademy AWS Certified Solutions Architect - Professional (path) ([course link](https://www.codecademy.com/learn/ext-paths/sap-c02-aws-certified-solutions-architect-professional))
+- AWS Certified Solutions Architect - Professional (path) ([course link](https://www.codecademy.com/learn/ext-paths/sap-c02-aws-certified-solutions-architect-professional))
 ### Book Notes
 - Head First Object-Oriented Analysis & Design, by Brett D. McLaughlin, Gary Pollice, and David West. ([publisher page](https://www.oreilly.com/library/view/head-first-object-oriented/0596008678/))
 - Fundamentals of Software Architecture, by Mark Richards and Neal Ford. ([publisher page](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/))

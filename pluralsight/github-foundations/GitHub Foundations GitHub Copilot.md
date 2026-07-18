@@ -1,4 +1,7 @@
 ## GitHub Copilot foundations
+> [!NOTE]
+> A concise introduction to using Copilot’s code suggestions, chat, and agent capabilities through focused prompts, relevant context, incremental changes, and rigorous human verification.
+
 GitHub Copilot is an AI coding assistant that supports software development in integrated development environments, on GitHub, in mobile tools and through the command line. Depending on the product, plan and editor, Copilot can complete code, propose edits, explain unfamiliar code, generate tests, suggest fixes, review changes and help plan implementation work.
 
 Copilot can reduce repetitive work and help developers explore unfamiliar technologies, but it does not replace technical judgement. Developers remain responsible for architecture, correctness, security, maintainability and compliance.

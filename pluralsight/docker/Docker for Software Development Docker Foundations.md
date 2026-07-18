@@ -1,4 +1,7 @@
 # Docker for Software Development: Docker Foundations
+> [!NOTE]
+> A comprehensive introduction to Docker’s core workflow: building secure, portable images, distributing them through registries, and running disposable containers individually or as multi-service applications with Compose.
+
 Docker helps developers build, share and run applications as containers. A container packages an application with the files, libraries and configuration it needs, then runs it as an isolated process. Containers share the host kernel, so they are not small virtual machines, although developers often manage them with similar start, stop and restart workflows.
 
 A practical Docker setup gives developers three core capabilities:

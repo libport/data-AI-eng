@@ -1,4 +1,6 @@
 # Docker for Software Development: React Apps
+> [!NOTE]
+> A practical guide to creating fast, secure, and portable React containers with live-reloading development environments, optimized multi-stage builds, Nginx-based production serving, client-side routing, and safe configuration.
 ## Purpose and context
 Globomantics needs to improve an ecommerce portal that has grown beyond its monolithic design. The front end provides the first practical target for containerisation. Docker gives the team repeatable environments across development, testing and production, while React provides the browser interface. A useful starting point includes Docker, Node.js, npm, React, an editor and command-line knowledge.
 

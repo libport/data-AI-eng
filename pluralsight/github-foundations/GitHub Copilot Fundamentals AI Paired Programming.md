@@ -1,4 +1,7 @@
 # GitHub Copilot Fundamentals: AI Paired Programming
+> [!NOTE]
+> A practical guide to accelerating software development with Copilot through focused prompting, incremental implementation, debugging, testing, and refactoring—while maintaining human judgment, security, privacy, and accountability.
+
 GitHub Copilot is an AI coding assistant that supports software development across editors, GitHub.com and command-line workflows. It can suggest code as a developer types, answer questions about a project, explain unfamiliar code, draft tests, propose refactors, review changes and help complete repository tasks. Current Copilot features also include agent-based workflows that can plan and implement changes for human review.
 
 Copilot can reduce the time spent recalling syntax, creating routine structures and searching for common implementation patterns. It does not replace programming knowledge, engineering judgement or team controls. Its responses are probabilistic, so the same prompt can produce different results. Generated code can be incomplete, insecure, inefficient or unsuitable for the project. Developers must inspect, test and review every proposed change.

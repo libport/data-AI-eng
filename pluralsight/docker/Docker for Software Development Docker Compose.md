@@ -1,4 +1,6 @@
 # Docker for Software Development: Docker Compose
+> [!NOTE]
+> A practical introduction to defining, building, running, networking, scaling, and troubleshooting multi-container applications as a single repeatable stack with Docker Compose.
 ## Purpose
 Docker Compose defines and runs multi-container Docker applications from a Compose file. It helps developers describe an application once, then build images, start services, view logs, enter containers, scale selected services and remove runtime resources with repeatable commands.
 

@@ -1,4 +1,6 @@
 # Docker for Software Development: Node.js Apps
+> [!NOTE]
+> A practical guide to building secure, reproducible Node.js containers and configuring their dependencies, storage, networking, logging, debugging, and multi-service environments for reliable development and deployment.
 ## Containers and Node.js development
 Containers package an application with the runtime, libraries, operating system files, metadata, and default configuration it needs to run. A Node.js application can therefore run in a repeatable environment on a developer workstation, in continuous integration, and in production. The result is not perfect portability, because the host kernel, CPU architecture, filesystem, networking, and runtime settings still matter. Even so, containers reduce the difference between development, test, and deployment environments.
 

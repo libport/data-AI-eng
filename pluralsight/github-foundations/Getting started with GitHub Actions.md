@@ -1,4 +1,7 @@
 # Getting started with GitHub Actions
+> [!NOTE]
+> A practical introduction to automating secure, reliable software delivery with event-driven workflows, runners, matrix builds, secrets, artifacts, pull-request checks, and enforced branch protections.
+
 GitHub Actions lets repository maintainers automate software delivery work directly inside GitHub. A workflow can build code, run tests, publish packages, create issues, label pull requests, deploy applications, or call external services. The product works through YAML workflow files stored in `.github/workflows`, where repository events, scheduled times, or external API calls trigger jobs.
 
 This abridged guide explains the core concepts, the shape of a simple workflow, the role of runners and logs, the use of secrets, and a practical continuous integration pipeline for a Node.js project. It also updates older examples to current terminology and practice. Current repositories normally use `main` as the default branch. Older repositories may still use `master`, so workflow examples should target the actual default branch used by the repository.

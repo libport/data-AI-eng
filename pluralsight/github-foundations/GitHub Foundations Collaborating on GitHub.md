@@ -1,4 +1,7 @@
 # Collaborating on GitHub
+> [!NOTE]
+> A comprehensive guide to coordinating software work through effective branching, focused pull requests, disciplined reviews, issue tracking, discussions, notifications, and supporting tools such as forks, Pages, and Gists.
+
 GitHub combines Git-based version control with tools for reviewing changes, tracking work, supporting communities, publishing static sites and sharing small code collections. Effective collaboration depends on clear branch policies, focused pull requests, disciplined review and deliberate notification settings.
 ## Git branches and collaboration models
 Git records project snapshots as commits. A branch is a movable reference to a commit, so creating or switching branches usually requires little work. `HEAD` identifies the currently checked-out branch or commit. Each new commit advances the active branch reference while other branches remain unchanged.

@@ -1,4 +1,6 @@
 # Docker for Software Development: Developing Docker Apps
+> [!NOTE]
+> A hands-on guide to building fast, secure, and maintainable containerized development workflows using live code mounting, multi-stage builds, intelligent caching, safe secret handling, linting, logging, and modern debugging tools.
 ## Development inside containers
 A Dockerfile defines how Docker builds an image for an application. The file normally specifies the base image, working directory, source files, dependency installation steps, exposed port and command used to start the process. Docker reads these instructions during an image build and combines operating system content, application code and build artefacts into a template for container instances.
 

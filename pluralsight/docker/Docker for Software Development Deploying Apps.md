@@ -1,4 +1,6 @@
 # Docker for Software Development: Deploying Apps
+> [!NOTE]
+> A practical guide to choosing and scaling container deployment, from Docker Compose and serverless services to managed cloud platforms and Kubernetes, while maintaining secure, repeatable, and production-ready workflows.
 ## Core idea
 Containerised applications become easier to build, test, release and move between platforms when teams treat deployment as a model rather than a sequence of commands. Docker Compose gives that model on one Docker host. Serverless container services add managed hosting and autoscaling. Advanced container platforms add private networking, controlled rollouts and deeper operational features. Kubernetes adds the most control, density and portability, but also brings the largest operating model.
 

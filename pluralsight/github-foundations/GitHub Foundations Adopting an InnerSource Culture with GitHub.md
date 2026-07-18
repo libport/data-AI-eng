@@ -1,4 +1,6 @@
 # Adopting an InnerSource Culture with GitHub
+> [!NOTE]
+> A strategic guide to applying open-source practices inside an organization through discoverable projects, clear governance, contributor-friendly workflows, responsive maintainers, measurable pilots, and sustainable cross-team collaboration.
 ## InnerSource and its purpose
 InnerSource applies open source principles and practices to software development within an organisation. It enables teams to reuse and improve proprietary software through visible collaboration, documented workflows and contributions from people outside the host team.
 

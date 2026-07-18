@@ -1,4 +1,7 @@
 ## GitHub Copilot, AI agents and MCP
+> [!NOTE]
+> A comprehensive guide to using Copilot’s local and cloud agents, MCP integrations, Spark, and repository customizations to delegate development work safely while preserving human oversight, least-privilege access, and rigorous review.
+
 GitHub launched Copilot as a technical preview in June 2021 and made it generally available in June 2022. It began as an AI pair programmer that suggested lines and functions inside an editor. Copilot now supports chat, multi-file editing, code review, pull request assistance, selectable models and autonomous agents across editors, GitHub and the command line.
 
 This shift changes the developer's role. Developers still define outcomes, judge trade-offs, review code and approve releases. Agents take on bounded implementation work such as locating relevant files, editing code, running commands, checking tests and preparing pull requests. The strongest results come from clear objectives, useful context, appropriate tools and human review.

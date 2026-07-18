@@ -1,4 +1,6 @@
 # Docker for Software Development: SQL Server
+> [!NOTE]
+> A practical guide to running SQL Server reliably in containers with durable storage, secure authentication, controlled schema migrations, health-aware Compose environments, and evidence-based resource management.
 ## Core model
 A database combines a server process, persistent data and a schema that gives the data usable shape. SQL Server receives requests, processes queries and returns responses. Its data files matter, but the database also depends on tables, constraints, indexes, views, stored procedures, security objects and configuration. An empty database can still be a database because its schema can accept and organise future data.
 

@@ -1,4 +1,7 @@
 ## Managing software projects with GitHub
+> [!NOTE]
+> A practical guide to planning and tracking delivery with configurable Projects and milestones, marking important versions with Git tags, publishing documented releases, and maintaining detailed repository wikis.
+
 GitHub combines Git-based source control with tools for planning work, tracking delivery and documenting a repository. Teams can organise issues and pull requests in Projects, group repository work into milestones, identify important commits with tags, publish releases and maintain long-form documentation in a wiki.
 ### GitHub Projects
 A GitHub Project belongs to a user account or an organisation. A user project tracks work from repositories owned by that account, while an organisation project tracks work from the organisation's repositories. A project can span several repositories and can link back to relevant repositories or teams.

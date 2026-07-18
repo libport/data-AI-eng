@@ -1,4 +1,6 @@
 # GitHub Foundations: Git and GitHub
+> [!NOTE]
+> A comprehensive introduction to managing version history with Git and collaborating on GitHub through repositories, branches, remotes, pull requests, reviews, security controls, and project-governance features.
 ## Course purpose and expected capabilities
 The course introduces Git and GitHub as complementary tools for version control and collaboration. Git manages version history locally, while GitHub hosts Git repositories and adds review, project management, and automation features.
 ## Module 1: Version control with Git

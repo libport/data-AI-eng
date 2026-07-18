@@ -1,4 +1,7 @@
 ## GitHub Codespaces
+> [!NOTE]
+> A practical guide to creating, configuring, securing, and cost-managing reproducible cloud development environments that streamline onboarding and support building, testing, and debugging from anywhere.
+
 GitHub Codespaces provides cloud-hosted development environments for repositories. Each codespace runs a development container on a GitHub-hosted virtual machine and can open in a browser, Visual Studio Code or GitHub CLI. A repository can store its environment configuration with its code, giving contributors a consistent set of tools, runtimes and settings without requiring the same local setup.
 
 Codespaces supports distributed teams by reducing configuration differences and shortening onboarding. Organisations can control access, machine types, network settings, port visibility, retention and spending. Developers can select an available region and machine type, although repository settings and organisational policies may restrict the choices.

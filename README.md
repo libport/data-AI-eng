@@ -1,13 +1,13 @@
-# Data Engineering, AI Engineering, and System Architecture
+# Data Engineering, AI Engineering, and Systems Architecture
 Course notes and project files for modules, paths, professional certificates, and books related to data engineering, AI engineering, and system architecture. Course providers include IBM, Pluralsight, Codecademy, Databricks, and AWS.
 
 Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-premises and cloud (AWS) architectures with Databricks.
 ## Data and AI Engineering
 Data engineering is the discipline of designing, building, and maintaining reliable systems that collect, transform, store, and deliver data for analysis and operational use. AI engineering focuses on developing, deploying, and managing artificial intelligence models and applications that solve practical problems. The two complement each other because data engineering provides the high-quality, accessible data that AI systems need, while AI engineering turns that data into predictions, automation, and insights.
 ### Course Notes and Project Files
-- :package: [Back-End Engineer Professional Certification](Codecademy:/backend-engineer/README.md) ([course link](https://www.Codecademy:.com/career-journey/back-end-engineer))
-- :notebook: [GitHub Foundations](Pluralsight:/github-foundations/README.md (path)) (path) ([course link](https://www.Pluralsight:.com/paths/github-foundations))
-- :notebook: [Docker for Software Development](Pluralsight:/docker/README.md) (path) ([course link](https://www.Pluralsight:.com/paths/docker-for-software-development))
+- :package: [Back-End Engineer Professional Certification](codecademy/backend-engineer/README.md) ([course link](https://www.codecademy.com/career-journey/back-end-engineer))
+- :notebook: [GitHub Foundations](pluralsight/github-foundations/README.md (path)) (path) ([course link](https://www.pluralsight.com/paths/github-foundations))
+- :notebook: [Docker for Software Development](pluralsight/docker/README.md) (path) ([course link](https://www.pluralsight.com/paths/docker-for-software-development))
 - :construction: :notebook: [IBM Data Engineering Professional Certificate](IBM-DE/README.md) ([course link](https://www.coursera.org/professional-certificates/ibm-data-engineer))
 - AWS Certified Data Engineer - Associate (path) ([course link](https://www.codecademy.com/learn/ext-paths/dea-c01-aws-certified-data-engineer-associate))
 - IBM AI Engineering Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ai-engineer))
@@ -25,7 +25,7 @@ Data engineering is the discipline of designing, building, and maintaining relia
 ## Systems Engineering and Architecture
 Systems architecture integrates data engineering and AI engineering by combining their pipelines, platforms, models, applications, security controls, and governance processes into scalable enterprise solutions that deliver measurable business value.
 ### Course Notes and Project Files
-- :construction: :notebook: [Associate Systems Engineer to Principal Systems Engineer](Codecademy:/ASEPSE/README.md) ([course link](https://www.codecademy.com/learn/ext-paths/systems-engineering-journey))
+- :construction: :notebook: [Associate Systems Engineer to Principal Systems Engineer](codecademy/ASEPSE/README.md) ([course link](https://www.codecademy.com/learn/ext-paths/systems-engineering-journey))
 - IBM Systems and Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/ibm-systems-and-solutions-architect))
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 - AWS Certified Solutions Architect - Professional (path) ([course link](https://www.codecademy.com/learn/ext-paths/sap-c02-aws-certified-solutions-architect-professional))

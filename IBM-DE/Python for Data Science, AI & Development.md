@@ -11,7 +11,7 @@ Everyday notebook actions:
 - Work in parallel: open multiple notebooks and arrange them side-by-side.
 - Present and wrap up: mix Markdown and code for a “story,” optionally use slide mode, then shut down the kernel to release memory (“No Kernel” indicates it’s stopped).
 ### Expressions and variables
-An expression is something Python evaluates to produce a value. Arithmetic expressions combine operands (numbers) with operators (+, -, , /). In Python 3, `/` always returns a float (for example, `25 / 5` evaluates to `5.0`). Operator precedence follows standard math rules: multiplication/division happen before addition/subtraction unless parentheses override the order.
+An expression is something Python evaluates to produce a value. Arithmetic expressions combine operands (numbers) with operators (+, -, \*, /). In Python 3, `/` always returns a float (for example, `25 / 5` evaluates to `5.0`). Operator precedence follows standard math rules: multiplication/division happen before addition/subtraction unless parentheses override the order.
 
 Variables store values to reuse them:
 - `total_min = 142`

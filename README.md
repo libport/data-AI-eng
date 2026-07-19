@@ -1,7 +1,7 @@
 # Data Engineering, AI Engineering, and Systems Architecture
 Course notes and project files for modules, paths, professional certificates, and books related to data engineering, AI engineering, and system architecture. Course providers include IBM, Pluralsight, Codecademy, Databricks, and AWS.
 
-Programme designed for mastery in flexible, resilient, and performant data and AI pipelines in on-premises and cloud (AWS) architectures with Databricks.
+This programme is designed for mastery in flexible, resilient, and performant data and AI pipelines in on-premises and cloud (AWS) architectures with Databricks.
 ## Data and AI Engineering
 Data engineering is the discipline of designing, building, and maintaining reliable systems that collect, transform, store, and deliver data for analysis and operational use. AI engineering focuses on developing, deploying, and managing artificial intelligence models and applications that solve practical problems. The two complement each other because data engineering provides the high-quality, accessible data that AI systems need, while AI engineering turns that data into predictions, automation, and insights.
 ### Course Notes and Project Files
@@ -14,7 +14,6 @@ Data engineering is the discipline of designing, building, and maintaining relia
 - AWS Certified Machine Learning Engineer - Associate (path) ([course link](https://www.pluralsight.com/paths/aws-certified-machine-learning-engineer-associate-mlac01))
 - Get Started with Databricks for Data Engineering (module) ([course link](https://www.databricks.com/training/catalog/get-started-with-databricks-for-data-engineering-1511))
 ### Book Notes
-- Learning Systems Thinking, by Diana Montalion. ([publisher page](https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/))
 - Fundamentals of Data Engineering, by Joe Reis and Matt Housley. ([publisher page](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/))
 - Modern Software Engineering, by David Farley ([publisher page](https://www.informit.com/store/modern-software-engineering-doing-what-works-to-build-9780137314911))
 - Software Engineering for Data Scientists, by Catherine Nelson. ([publisher page](https://www.oreilly.com/library/view/software-engineering-for/9781098136192/))
@@ -30,6 +29,7 @@ Systems architecture integrates data engineering and AI engineering by combining
 - AWS Cloud Solutions Architect Professional Certificate ([course link](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect))
 - AWS Certified Solutions Architect - Professional (path) ([course link](https://www.codecademy.com/learn/ext-paths/sap-c02-aws-certified-solutions-architect-professional))
 ### Book Notes
+- Thinking in Systems, by Donella Meadows. ([publisher page](https://www.chelseagreen.com/product/thinking-in-systems/))
 - Head First Object-Oriented Analysis & Design, by Brett D. McLaughlin, Gary Pollice, and David West. ([publisher page](https://www.oreilly.com/library/view/head-first-object-oriented/0596008678/))
 - Fundamentals of Software Architecture, by Mark Richards and Neal Ford. ([publisher page](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/))
 - Foundations of Scalable Systems, by Ian Gorton ([publisher page](https://www.oreilly.com/library/view/foundations-of-scalable/9781098106058/))
